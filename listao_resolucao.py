@@ -7,3 +7,9 @@ print(nome+'\n'+cidade+'\n'+ano_nasc)
 x = int(ano_nasc)
 idade = 2030 - x
 print("Em 2030 você terá {} anos.".format(idade))
+
+#exerc 11
+lado = input("Informe o tamanho do lado: ")
+x = float(lado)
+area = x**2
+print("A área é de {} unidades de medida²".format(area))
